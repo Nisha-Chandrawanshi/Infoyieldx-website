@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Automation - InfoYieldX</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="service-styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        .tech-item {
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .tech-item:hover {
+            transform: translateY(-8px) scale(1.07);
+            box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+            background: #f5f7fa;
+        }
+        .service-hero-image img {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .service-hero-image img:hover {
+            transform: scale(1.1);
+            box-shadow: 0 12px 30px rgba(0,0,0,0.15);
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="nav-container">
+            <a href="../index.html" class="logo">
+                <span>InfoYieldX</span>
+            </a>
+            <button class="mobile-menu-btn" aria-label="Toggle Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <div class="nav-links">
+                <a href="../index.html#services">Services</a>
+                <a href="../index.html#about">About</a>
+                <a href="../index.html#contact">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Service Hero Section -->
+    <section class="service-hero">
+        <div class="service-hero-content">
+            <div class="service-breadcrumb">
+                <a href="../index.html">Home</a>
+                <i class="fas fa-chevron-right"></i>
+                <a href="../index.html#services">Services</a>
+                <i class="fas fa-chevron-right"></i>
+                <span>AI Automation</span>
+            </div>
+            <h1 class="fade-in">AI Automation</h1>
+            <p class="fade-in">Transform your business with intelligent automation powered by AI and machine learning.</p>
+            <div class="service-cta fade-in">
+                <a href="../index.html#contact" class="btn btn-primary">Get Started</a>
+                <a href="#features" class="btn btn-secondary">Learn More</a>
+            </div>
+        </div>
+        <div class="service-hero-image fade-in">
+            <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800" alt="AI Automation" style="max-width:350px;width:100%;height:auto;">
+            <!-- Animated AI SVG Illustration -->
+            <svg class="ai-hero-illustration" width="120" height="120" viewBox="0 0 120 120" style="position:absolute;right:10%;top:10%;z-index:1;">
+                <circle cx="60" cy="60" r="50" fill="#f3f7fa" opacity="0.7">
+                    <animate attributeName="r" values="50;55;50" dur="3s" repeatCount="indefinite"/>
+                </circle>
+                <circle cx="60" cy="60" r="30" fill="#667eea" opacity="0.15">
+                    <animate attributeName="r" values="30;35;30" dur="2.5s" repeatCount="indefinite"/>
+                </circle>
+                <circle cx="60" cy="60" r="10" fill="#ff6b6b" opacity="0.7">
+                    <animate attributeName="r" values="10;14;10" dur="2s" repeatCount="indefinite"/>
+                </circle>
+                <circle cx="90" cy="30" r="6" fill="#ee5a24" opacity="0.8">
+                    <animate attributeName="cy" values="30;40;30" dur="2.2s" repeatCount="indefinite"/>
+                </circle>
+                <circle cx="30" cy="90" r="4" fill="#764ba2" opacity="0.8">
+                    <animate attributeName="cy" values="90;80;90" dur="2.2s" repeatCount="indefinite"/>
+                </circle>
+            </svg>
+        </div>
+    </section>
+
+    <!-- Service Overview -->
+    <section class="service-overview fade-in">
+        <div class="overview-container">
+            <div class="overview-content">
+                <h2>Why Choose AI Automation?</h2>
+                <p>AI automation streamlines operations, reduces costs, and unlocks new opportunities for innovation. Our solutions leverage the latest in artificial intelligence, machine learning, and robotic process automation to help your business stay ahead of the curve.</p>
+                <div class="overview-stats">
+                    <div class="stat">
+                        <span class="number">5x</span>
+                        <span class="label">Faster Processes</span>
+                    </div>
+                    <div class="stat">
+                        <span class="number">80%</span>
+                        <span class="label">Cost Reduction</span>
+                    </div>
+                    <div class="stat">
+                        <span class="number">24/7</span>
+                        <span class="label">Automation</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Features -->
+    <section id="features" class="service-features fade-in">
+        <div class="features-container">
+            <h2>Our AI Automation Solutions</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>Robotic Process Automation</h3>
+                    <p>Automate repetitive tasks and workflows with RPA bots.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>Machine Learning</h3>
+                    <p>Leverage predictive analytics and intelligent decision-making.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <h3>Conversational AI</h3>
+                    <p>Deploy chatbots and virtual assistants for customer engagement.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technology Stack -->
+    <section class="tech-stack fade-in">
+        <div class="tech-container">
+            <h2>Our Technology Stack</h2>
+            <div class="tech-grid">
+                <div class="tech-item">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" alt="Python Logo" onerror="this.onerror=null;this.src='https://cdn-icons-png.flaticon.com/512/5968/5968350.png';">
+                    <span>Python</span>
+                </div>
+                <div class="tech-item">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/2/2d/Tensorflow_logo.svg" alt="TensorFlow Logo" onerror="this.onerror=null;this.src='https://cdn-icons-png.flaticon.com/512/5968/5968350.png';">
+                    <span>TensorFlow</span>
+                </div>
+                <div class="tech-item">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/9/96/Pytorch_logo.png" alt="PyTorch Logo" onerror="this.onerror=null;this.src='https://cdn-icons-png.flaticon.com/512/5968/5968350.png';">
+                    <span>PyTorch</span>
+                </div>
+                <div class="tech-item">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a8/Microsoft_Azure_Logo.svg" alt="Azure AI Logo" onerror="this.onerror=null;this.src='https://cdn-icons-png.flaticon.com/512/5968/5968350.png';">
+                    <span>Azure AI</span>
+                </div>
+                <div class="tech-item">
+                    <img src="https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png" alt="AWS AI Logo" onerror="this.onerror=null;this.src='https://cdn-icons-png.flaticon.com/512/5968/5968350.png';">
+                    <span>AWS AI</span>
+                </div>
+                <div class="tech-item">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/5/5f/Google_Cloud_logo.png" alt="Google Cloud AI Logo" onerror="this.onerror=null;this.src='https://cdn-icons-png.flaticon.com/512/5968/5968350.png';">
+                    <span>Google Cloud AI</span>
+                </div>
+                <div class="tech-item">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6e/UiPath_Logo.png" alt="UiPath Logo" onerror="this.onerror=null;this.src='https://cdn-icons-png.flaticon.com/512/5968/5968350.png';">
+                    <span>UiPath</span>
+                </div>
+                <div class="tech-item">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_Watson_Logo_2017.png" alt="IBM Watson Logo" onerror="this.onerror=null;this.src='https://cdn-icons-png.flaticon.com/512/5968/5968350.png';">
+                    <span>IBM Watson</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="process-section fade-in">
+        <div class="process-container">
+            <h2>Our Implementation Process</h2>
+            <div class="process-timeline">
+                <div class="process-step">
+                    <div class="step-number"><i class="fas fa-search animate-spin"></i></div>
+                    <h3>Discovery</h3>
+                    <p>Identify automation opportunities and business goals.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number"><i class="fas fa-pencil-ruler animate-bounce"></i></div>
+                    <h3>Design</h3>
+                    <p>Architect AI-driven automation solutions tailored to your needs.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number"><i class="fas fa-cogs animate-spin"></i></div>
+                    <h3>Development</h3>
+                    <p>Build, train, and test AI models and automation workflows.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number"><i class="fas fa-rocket animate-bounce"></i></div>
+                    <h3>Deployment</h3>
+                    <p>Integrate and launch automation solutions in your environment.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number"><i class="fas fa-life-ring animate-spin"></i></div>
+                    <h3>Support</h3>
+                    <p>Monitor, optimize, and scale your AI automation systems.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="service-cta-section">
+        <div class="cta-container">
+            <h2>Ready to Automate with AI?</h2>
+            <p>Contact us to discover how AI automation can transform your business.</p>
+            <a href="../index.html#contact" class="btn btn-primary">Get in Touch</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p>&copy; 2024 InfoYieldX. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="../script.js"></script>
+    <script src="service-script.js"></script>
+</body>
+</html> 
